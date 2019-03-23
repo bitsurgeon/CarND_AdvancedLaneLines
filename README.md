@@ -23,7 +23,7 @@ _Binder serves interactive notebooks online, so you can run the code and change 
 A series of chessboard images are used to calibrate the camera. The camera matrix and distortion coefficients are calculated and saved.
 
 Here is an example of the raw and undistorted image.  
-<img src="./output_images/undistort.jpg" alt="Undistored" width="350">  
+<img src="./output_images/undistort.jpg" alt="Undistored" width="450">  
 
 ---
 ### **Image Pipeline**
@@ -37,8 +37,8 @@ Here is an example of the raw and undistorted image.
     * magnitude of gradients
     * direction of gradients
 
-    Here's an example of a detailed output for this step.
-    <img src="./debug_outputs/binary_combo_detail.jpg" alt="Binary Detail" width="350">  
+    Here's an example of a detailed output for this step.  
+    <img src="./debug_outputs/binary_combo_detail.jpg" alt="Binary Detail" width="800">  
 
 3. Perspective transform with the following `src` and `dst` points to convert the image into a bird's-eye view.
 
@@ -50,7 +50,7 @@ Here is an example of the raw and undistorted image.
     | 210, 720      | 300, 720      |
 
     The perspective transform is working as expected. By drawing the `src` and `dst` points onto a test image and its warped counterpart to verify that the lines appear parallel in the warped image.  
-    <img src="./output_images/birds_eye.jpg" alt="Warped Image" width="350">  
+    <img src="./output_images/birds_eye.jpg" alt="Warped Image" width="450">  
 
 4. Lane lines pixels are fitted with a 2nd order polynomial. Two approaches are used to detect lane lines in an image:
     * histogram and sliding window
