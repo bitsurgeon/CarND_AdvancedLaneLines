@@ -639,6 +639,6 @@ print('video clip processing ...')
 output_video = 'lane_line_marked.mp4'
 video_clip = VideoFileClip('sample_video.mp4')
 overlay_clip = video_clip.fl_image(process_image)
-overlay_clip.write_videofile(output_video, audio=False, verbose=False, progress_bar=False)
+overlay_clip.write_videofile(output_video, audio=False, verbose=False, logger=None) # logger="bar" to enable progress bar
 
 print('### END ###')
