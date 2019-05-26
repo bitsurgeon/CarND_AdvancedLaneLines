@@ -1,5 +1,5 @@
-# CarND_AdvancedLaneLines
-## _Advanced Lane Finding :: Udacity - Self-Driving Car Engineer Nanodegree_
+# Advanced Lane Finding
+## _A project of Self-Driving Car Engineer Nanodegree_
 
 [![Binder](http://mybinder.org/badge.svg)](https://beta.mybinder.org/v2/gh/bitsurgeon/CarND_AdvancedLaneLines/master)
 [![Udacity - Self-Driving Car Engineer Nanodegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)  
